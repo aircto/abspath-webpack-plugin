@@ -1,0 +1,25 @@
+{
+  "name": "abspath-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Custom absolute path(s) provider for node apps bundled with webpack",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aircto/abspath-webpack-plugin.git"
+  },
+  "keywords": [
+    "absolute",
+    "path",
+    "require",
+    "import",
+    "nodejs",
+    "webpack",
+    "bundle"
+  ],
+  "author": "Yatharth Khatri <yatharth01@gmail.com> (https://twitter.com/yatharthkhatri)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aircto/abspath-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/aircto/abspath-webpack-plugin#readme"
+}

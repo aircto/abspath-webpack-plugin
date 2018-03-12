@@ -31,7 +31,7 @@ var AbsolutePathProviderPlugin = require('abspath-webpack-plugin');
 module.exports = {
   plugins: [
     new AbsolutePathProviderPlugin(
-      /* regex */: /* absolute path to some dir */
+      /* regex */, /* absolute path to some dir */
     )
   ]
 }
@@ -76,7 +76,7 @@ var AbsolutePathProviderPlugin = require('abspath-webpack-plugin');
 module.exports = {
   plugins: [
     new AbsolutePathProviderPlugin(
-      /^@components/: path.resolve('./components')
+      /^@components/, path.resolve('./components')
     )
   ]
 }
